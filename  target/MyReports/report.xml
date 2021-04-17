@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="6.411">
+<testcase classname="Sky blue background" name="validate sky blue background" time="3.451">
+<system-out><![CDATA[Given user is on auto1exam page.............................................passed
+When user clicks the set sky blue background................................passed
+Then page changes to  sky blue background...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="White background" name="validate white background" time="2.814">
+<system-out><![CDATA[Given user is on auto2exam page.............................................passed
+When user clicks the set white background...................................passed
+Then page changes to  white background......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

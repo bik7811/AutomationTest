@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-10T20:35:22.386Z",
+        "line": 3,
+        "name": "validate sky blue background",
+        "description": "",
+        "id": "sky-blue-background;validate-sky-blue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2803000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on auto1exam page",
+            "match": {
+              "location": "steps.skyBlueBackgroundSteps.user_is_on_auto1exam_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks the set sky blue background",
+            "match": {
+              "location": "steps.skyBlueBackgroundSteps.user_clicks_the_set_sky_blue_background()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 501000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "page changes to  sky blue background",
+            "match": {
+              "location": "steps.skyBlueBackgroundSteps.page_changes_to_sky_blue_background()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sky blue background",
+    "description": "",
+    "id": "sky-blue-background",
+    "keyword": "Feature",
+    "uri": "classpath:features/skyBlueBackground.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-10T20:35:25.848Z",
+        "line": 3,
+        "name": "validate white background",
+        "description": "",
+        "id": "white-background;validate-white-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2178000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on auto2exam page",
+            "match": {
+              "location": "steps.whiteBackgrooundSteps.user_is_on_auto2exam_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks the set white background",
+            "match": {
+              "location": "steps.whiteBackgrooundSteps.user_clicks_the_set_sky_blue_background()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 574000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "page changes to  white background",
+            "match": {
+              "location": "steps.whiteBackgrooundSteps.page_changes_to_sky_blue_background()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "White background",
+    "description": "",
+    "id": "white-background",
+    "keyword": "Feature",
+    "uri": "classpath:features/whiteBackground.feature",
+    "tags": []
+  }
+]
